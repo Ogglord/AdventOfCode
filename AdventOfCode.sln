@@ -1,11 +1,11 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1704.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOf.Code", "AdventOf.Code\AdventOf.Code.csproj", "{FC43A050-4BD6-4407-9441-35B83964CF99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOf.Code", "AdventOfCode\AdventOfCode.csproj", "{FC43A050-4BD6-4407-9441-35B83964CF99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOf.Test", "AdventOf.Test\AdventOf.Test.csproj", "{62E5557A-243E-4827-8A25-2F5D1DC8D8E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOf.Test", "UnitTests\UnitTests.csproj", "{62E5557A-243E-4827-8A25-2F5D1DC8D8E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
