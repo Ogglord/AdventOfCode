@@ -1,0 +1,17 @@
+/Users/ogglord/Projects/AdventOf/AdventOf.Code/bin/Debug/net7.0/AdventOf.Code
+/Users/ogglord/Projects/AdventOf/AdventOf.Code/bin/Debug/net7.0/AdventOf.Code.deps.json
+/Users/ogglord/Projects/AdventOf/AdventOf.Code/bin/Debug/net7.0/AdventOf.Code.runtimeconfig.json
+/Users/ogglord/Projects/AdventOf/AdventOf.Code/bin/Debug/net7.0/AdventOf.Code.dll
+/Users/ogglord/Projects/AdventOf/AdventOf.Code/bin/Debug/net7.0/AdventOf.Code.pdb
+/Users/ogglord/Projects/AdventOf/AdventOf.Code/bin/Debug/net7.0/AoCHelper.Net.dll
+/Users/ogglord/Projects/AdventOf/AdventOf.Code/obj/Debug/net7.0/AdventOf.Code.csproj.AssemblyReference.cache
+/Users/ogglord/Projects/AdventOf/AdventOf.Code/obj/Debug/net7.0/AdventOf.Code.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ogglord/Projects/AdventOf/AdventOf.Code/obj/Debug/net7.0/AdventOf.Code.AssemblyInfoInputs.cache
+/Users/ogglord/Projects/AdventOf/AdventOf.Code/obj/Debug/net7.0/AdventOf.Code.AssemblyInfo.cs
+/Users/ogglord/Projects/AdventOf/AdventOf.Code/obj/Debug/net7.0/AdventOf.Code.csproj.CoreCompileInputs.cache
+/Users/ogglord/Projects/AdventOf/AdventOf.Code/obj/Debug/net7.0/AdventOf.Code.csproj.CopyComplete
+/Users/ogglord/Projects/AdventOf/AdventOf.Code/obj/Debug/net7.0/AdventOf.Code.dll
+/Users/ogglord/Projects/AdventOf/AdventOf.Code/obj/Debug/net7.0/refint/AdventOf.Code.dll
+/Users/ogglord/Projects/AdventOf/AdventOf.Code/obj/Debug/net7.0/AdventOf.Code.pdb
+/Users/ogglord/Projects/AdventOf/AdventOf.Code/obj/Debug/net7.0/AdventOf.Code.genruntimeconfig.cache
+/Users/ogglord/Projects/AdventOf/AdventOf.Code/obj/Debug/net7.0/ref/AdventOf.Code.dll

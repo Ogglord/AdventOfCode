@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dGWZJydLKQnkgWtBxDt2CR8pGS8+0ruG1SEEjLYGMuzjlnvo0vvqRVSVARglYkknQ2Zjo55Yd0FDcNv1MDlaxg==",
+  "success": true,
+  "projectFilePath": "/Users/ogglord/Projects/AdventOf/AdventOf.Code/AdventOf.Code.csproj",
+  "expectedPackageFiles": [
+    "/Users/ogglord/.nuget/packages/aochelper.net/2.0.0/aochelper.net.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
