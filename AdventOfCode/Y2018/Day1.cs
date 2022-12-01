@@ -1,18 +1,20 @@
-﻿namespace AdventOf.Code.Y2018;
+﻿using AdventOf.Code.Common;
+namespace AdventOf.Code.Y2018;
 
 [AdventYear(2018)]
 public class Day1 : IAdventDay
 {
 
-    public object PartOne(string input)
-    {
-        return input
-            .ToLines()
-            .Select(s => Convert.ToInt32(s))
-            .Sum();
-    }
+	public object PartOne(string input)
+	{
+		return input
+			.ToLines()
+			.Select(s => Convert.ToInt32(s))
+			.Sum();
+	}
 
-    public object PartTwo(string input)
+
+	public object PartTwo(string input)
     {
         var _acc = 0;
 

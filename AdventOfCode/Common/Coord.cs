@@ -56,11 +56,19 @@ public struct Coord : IEnumerable<int>, IEquatable<Coord>
         return new Coord(a.x + b.x, a.y + b.y, a.z + b.z);
     }
 
-    public override bool Equals(object other) =>
+    
+	public static Coord operator -(Coord a, Coord b)
+	{
+		return new Coord(Math.Abs(a.x - b.x), Math.Abs(a.y - b.y), Math.Abs(a.z - b.z));
+	}
+
+#pragma warning disable CS8765 // Nullability of type of parameter doesn't match overridden member (possibly because of nullability attributes).
+	public override bool Equals(object other) =>
         other is Coord c
             && c.x.Equals(x)
             && c.y.Equals(y)
             && c.z.Equals(z);
+#pragma warning restore CS8765 // Nullability of type of parameter doesn't match overridden member (possibly because of nullability attributes).
 
     // Implement IEquatable<T> https://stackoverflow.com/a/8952026/7532
     public bool Equals([AllowNull] Coord other) => x == other.x && y == other.y && z == other.z;

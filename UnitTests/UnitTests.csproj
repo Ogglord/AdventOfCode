@@ -25,11 +25,14 @@
   <ItemGroup>
     <None Remove="AoCHelper.Net" />
     <None Remove="Y2018\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\AdventOf.Code\AdventOf.Code.csproj" />
+    <None Remove="Y2018\Y2018\" />
+    <None Remove="Y2022\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Y2018\" />
+    <Folder Include="Y2022\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AdventOfCode\AdventOfCode.csproj" />
   </ItemGroup>
 </Project>

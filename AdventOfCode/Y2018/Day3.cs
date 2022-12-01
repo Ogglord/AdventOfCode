@@ -1,5 +1,5 @@
-﻿using System.Drawing;
-using System.Security.Claims;
+﻿using AdventOf.Code.Common;
+using System.Drawing;
 
 namespace AdventOf.Code.Y2018;
 

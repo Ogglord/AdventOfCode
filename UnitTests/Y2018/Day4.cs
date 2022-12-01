@@ -11,7 +11,7 @@ public class TestDay4 : BaseTestDay<Day4>
     }
 
     [Fact]
-    public async void PartOneTwo_Test()
+    public void PartOneTwo_Test()
     {
         var input = @"
                 [1518-11-01 00:00] Guard #10 begins shift

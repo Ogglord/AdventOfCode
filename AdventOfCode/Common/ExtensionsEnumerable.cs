@@ -1,7 +1,7 @@
 ﻿using System;
 namespace AdventOf.Code.Common
 {
-	public static class EnumerableExtensions
+	public static class ExtensionsEnumerable
 	{
         public static IEnumerable<Tuple<T?, T>> Pairwise<T>(this IEnumerable<T> enumerable)
         {

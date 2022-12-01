@@ -1,35 +1,31 @@
-﻿namespace AdventOf.Test.y2018;
+﻿namespace AdventOf.Test.y2022;
 
 using AoCHelper;
 using Xunit.Abstractions;
-using AdventOf.Code.Y2018;
+using AdventOf.Code.Y2022;
 
-public class TestDay5 : BaseTestDay<Day5>
+public class TestDay1 : BaseTestDay<Day1>
 {
-    public TestDay5(ITestOutputHelper output, TestHelperFixture fixture) : base(output, fixture)
+    public TestDay1(ITestOutputHelper output, TestHelperFixture fixture) : base(output, fixture)
     {
     }
 
-    [Fact]
-    public void PartOneTwo_Test()
-    {
-        var input = @"dabAcCaCBAcCcaDA";
-        Assert.NotNull(input);
+	[Fact]
+	public async void PartOne_Test()
+	{
+        var input = "1000\n2000\n3000\n\n4000\n\n5000\n6000\n\n7000\n8000\n9000\n\n10000";
+		Assert.NotNull(input);
 
-        // Run - 
-        var result = day.PartOne(input);
-        Assert.Equal(10, result);
+		// Run
+		var result = day.PartOne(input);
 
-        //result = day.PartTwo(input);
-        //Assert.Equal(4455, result);
-
-        // Write result
-        output.WriteLine($"The run with test data passed!");
+		// Write result
+		output.WriteLine($"Result from part one test: {result}");
 
 
-    }
+	}
 
-    [Fact]
+	[Fact]
     public async void PartOne()
     {
         var input = await fixture.GetInput(dayOfAdvent, year);

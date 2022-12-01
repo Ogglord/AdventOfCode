@@ -1,4 +1,6 @@
-﻿namespace AdventOf.Code.Y2018;
+﻿using AdventOf.Code.Common;
+
+namespace AdventOf.Code.Y2018;
 
 [AdventYear(2018)]
 public class Day2 : IAdventDay
