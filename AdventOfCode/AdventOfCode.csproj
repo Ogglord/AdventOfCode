@@ -8,13 +8,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="U2022\**" />
+    <EmbeddedResource Remove="U2022\**" />
+    <None Remove="U2022\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="AoCHelper.Net" />
     <None Remove="Common\" />
     <None Remove="U2022\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Common\" />
-    <Folder Include="U2022\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="AoCHelper.Net" Version="2.0.0" />
