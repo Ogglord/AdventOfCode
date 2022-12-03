@@ -4,16 +4,16 @@ using AoCHelper;
 using Xunit.Abstractions;
 using AdventOf.Code.Y2022;
 
-public class TestDay2 : BaseTestDay<Day2>
+public class TestDay3 : BaseTestDay<Day3>
 {
-    public TestDay2(ITestOutputHelper output, TestHelperFixture fixture) : base(output, fixture)
+    public TestDay3(ITestOutputHelper output, TestHelperFixture fixture) : base(output, fixture)
     {
     }
 
 	[Fact]
 	public void PartOneTwo_Test()
 	{
-        var input = "A Y\nB X\nC Z";
+        var input = "vJrwpWtwJgWrhcsFMMfFFhFp\njqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL\nPmmdzqPrVvPwwTWBwg\nwMqvLMZHhHMvwLHjbvcjnnSBnvTQFn\nttgJtRGJQctTZtZT\nCrZsJsPPZsGzwwsLwLmpwMDw";
 		Assert.NotNull(input);
 
 		// Run
