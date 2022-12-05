@@ -30,7 +30,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Y2018\" />
-    <Folder Include="Y2022\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AdventOfCode\AdventOfCode.csproj" />
